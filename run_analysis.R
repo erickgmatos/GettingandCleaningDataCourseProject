@@ -1,3 +1,6 @@
+# Run analysis on train and test measurements of Samsung Data
+# For more details, access the file READ.md.
+
 library(dplyr)
 activity_labels <- read.table("activity_labels.txt")
 features <- read.table("features.txt")
